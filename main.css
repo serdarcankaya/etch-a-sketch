@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'ZCOOL XiaoWei', serif;
+  color: aliceblue;
+}
+
+
+nav,
+footer {
+  height: 134px;
+  background: #000046;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+section {
+  background: #000046;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1CB5E0, #000046);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1CB5E0, #000046);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+button {
+  margin: 20px;
+}
+
+#buttons {
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#game {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#gameCubes {
+
+  width: 528px;
+  height: 528px;
+}
+
+.blackBox {
+  background-color: black;
+  border: 0.5px solid white !important;
+}
+
+.whiteBox {
+  background-color: white;
+  border: 0.5px solid black;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Charm', cursive;
+  align-self: center;
+  justify-self: center;
+  font-size: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer div {
+  align-self: center;
+}
